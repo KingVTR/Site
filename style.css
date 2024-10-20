@@ -1,22 +1,29 @@
-/* Style global */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #ff6347;
-    padding: 20px;
-    color: white;
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
     text-align: center;
 }
 
-nav a {
-    color: white;
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
     margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
 }
 
@@ -24,20 +31,20 @@ main {
     padding: 20px;
 }
 
-h2 {
-    color: #ff6347;
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.recette {
-    background-color: white;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px 0;
+footer {
     text-align: center;
-}
-
-.recette img {
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
     width: 100%;
-    height: auto;
-    max-width: 300px;
 }
